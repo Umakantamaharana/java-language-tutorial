@@ -109,6 +109,18 @@ public class ReferenceTypeMain2 {
 
         Student s2 = new Student();
         // Students do yourself for s2
+        
+        // MODIFICATION //
+        
+        s1.roll = 102;
+        s1.name = "Paul";
+        s1.score = 40;
 
+        String gradeS2 = s2.grade();
+        System.out.printf("GRADE of student with roll num: %d and name: %s is: %s", s2.roll, s2.name, gradeS2);
+        
+        // END MODIFICATION //
+        
+        
     }// END OF MAIN METHOD
 }
